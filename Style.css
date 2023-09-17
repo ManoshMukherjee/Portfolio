@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes para {
+    0% {
+        left: 10%;
+    }
+
+    50% {
+        right: 50%;
+    }
+
+    100% {
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .navbar {
+        overflow:auto;
+        position: relative;
+        top: 200px;
+    }
+  }
+
+.header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: cadetblue;
+    width: 100%;
+    position: fixed;
+    margin: 0 auto;
+    z-index: 1;
+    padding: 5px;
+float:right;
+}
+
+.header h1 {
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+    text-shadow: rgba(13, 13, 13, 0.244) 2px 2px 1px;
+}
+
+.header p {
+    color: red;
+    position: relative;
+    animation-name: para;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.header img
+{
+    position: absolute;
+    top:15px;
+    left:15px;
+    width:35px;
+    height: 35px;
+}
+
+.navbar {
+    background-color: cornflowerblue;
+    overflow: hidden;
+    position: relative;
+    top: 80px;
+    float:none;
+    display: flex;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    color: darkred;
+    font-weight: 700;
+    margin: 1px;
+    border: 2px solid rgb(99, 78, 162);
+}
+
+.navbar a:hover {
+    background-color: darksalmon;
+    color: darkred;
+    font-weight: bold;
+}
+
+.navbar a:first-child {
+    background-color: coral;
+    color: darkred;
+    font-weight: bold;
+}
+.navbar a:first-child:hover {
+    background-color: rgb(219, 64, 7);
+    color: darkred;
+    font-weight:bolder;
+}
+
+.main-section {
+    position: relative;
+    top: 90px;
+}
