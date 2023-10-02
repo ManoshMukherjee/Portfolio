@@ -3,77 +3,157 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Portfolio of Manosh Mukherjee - Web Developer">
+    <meta name="keywords" content="HTML, CSS, JavaScript, jQuery">
+    <meta name="author" content="Manosh Mukherjee">
+    <meta property="og:title" content="Portfolio of Manosh Mukherjee" />
+    <meta property="og:image" content="Icons/android-chrome-512x512.png" />
+    <meta property="og:description" content="Portfolio of Manosh Mukherjee - Web Developer" />
+    <meta property="og:type" content="website" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manosh's Portfolio</title>
     <link rel="stylesheet" href="Style.css" />
-    <link rel="apple-touch-icon" sizes="57x57" href="Favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="Favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="Favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="Favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="Favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="Favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="Favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="Favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="Favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="Favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
-    <link rel="manifest" href="Favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="Favicon/ms-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Icons/favicon-16x16.png">
+    <link rel="manifest" href="Icons/site.webmanifest">
+    <link rel="mask-icon" href="Icons/safari-pinned-tab.svg" color="#5bbad5">
+    <script type="text/JavaScript" src="Script.js"></script>
+    <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
     <header>
-        <div id="main-header" class="header">
+        <div class="header" id="head">
             <h1>Manosh Mukherjee</h1>
             <p>Web Developer</p>
-            <img src="Favicon/android-icon-144x144.png" alt="Logo">
         </div>
     </header>
-    <nav>
-        <div class="navbar">
-            <ul>
-                <a href="Index.html">
-                    <li class="nav">Home</li>
-                </a>
-                <a href="#sec1">
-                    <li class="nav">Professional Summary</li>
-                </a>
-                <a href="#sec2">
-                    <li class="nav">Education</li>
-                </a>
-                <a href="#sec3">
-                    <li class="nav">Projects</li>
-                </a>
-                <a href="#sec4">
-                    <li class="nav">Experience</li>
-                </a>
-                <a href="#sec5">
-                    <li class="nav">Skills</li>
-                </a>
-                <a href="#sec6">
-                    <li class="nav">Contact</li>
-                </a>
-            </ul>
+
+    <div class="navbar">
+        <a href="#head" class="active">Home</a>
+        <a href="#about">Professional Summary</a>
+        <a href="#">Experience</a>
+        <a href="#">Education</a>
+        <a href="#">Projects</a>
+        <a href="#">Skills</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="row">
+        <div class="side" id="about">
+            <h2>About Me</h2>
+            <div class="fakeimg">
+                <img src="Images/Manosh.jpg" alt="Manosh Mukherjee's Photo">
+                <p class="summary">Have good knowledge on ASP.NET(C#), ADO.NET, HTML5, CSS3, JavaScript, jQuery, Oracle,
+                    ASP.NET AJAX Control Toolkit and Crystal Reports, good knowledge on relational database design,
+                    development of SQL query & procedure-oriented work, quick learner and ready to adapt to new
+                    technologies</p>
+            </div>
+            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+            <h3>More Text</h3>
+            <p>Lorem ipsum dolor sit ame.</p>
+            <div class="fakeimg" style="height:60px;">Image</div><br>
+            <div class="fakeimg" style="height:60px;">Image</div><br>
+            <div class="fakeimg" style="height:60px;">Image</div>
         </div>
-    </nav>
-    <section class="main-section">
-        <div id="sec1">Professional Summary</div>
-        <div id="sec2">Education</div>
-        <div id="sec3">Projects</div>
-        <div id="sec4">Experience</div>
-        <div id="sec5">Skills</div>
-        <div id="sec6">Contact</div>
-    </section>
-    <aside>
+        <div class="main">
+            <h2>Professional Summary</h2>
+            <div class="fakeimg">
+                <p>Have good knowledge on ASP.NET(C#), ADO.NET, HTML5, CSS3, JavaScript, jQuery, Oracle, ASP.NET AJAX
+                    Control Toolkit and Crystal Reports, good knowledge on relational
+                    database design, development of SQL query & procedure-oriented work, quick learner and ready to
+                    adapt to new technologies</p>
+            </div>
+            <br>
+            <h2>Experience</h2>
+            <div class="fakeimg">
+                <p class="bold">Company : Hindustan Aeronautics Limited, TAD, Kanpur</p><span class="right bold"> (Dec
+                    2022 – Till now)</span>
+                <p class="content"> Role : As an Apprentice trainee, learned to develop ASP.NET based website using C#
+                    for Business logic, Oracle DB along with Crystal Reports as Reporting Tool. Platform / Software /
+                    Tools : ASP.NET 4.0, ADO.NET, C#, Oracle DB, Crystal Reports.
+                </p>
+            </div>
+            
+            <h2>Educational Qualifications</h2>
+            <div class="fakeimg">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Exam
+                            </th>
+                            <th>
+                                Year
+                            </th>
+                            <th>
+                                Name of Institute
+                            </th>
+                            <th>
+                                University / Board
+                            </th>
+                            <th>
+                                % / CGPA
+                            </th>
 
-    </aside>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>B.E. (CSE)</td>
+                            <td>2021</td>
+                            <td>Dr. Sri Sri Sri Shivaumara Mahaswamy College of Engineering</td>
+                            <td>VTU</td>
+                            <td>76.9</td>
+                        </tr>
+                        <tr>
+                            <td>HSC</td>
+                            <td>2017</td>
+                            <td>BNS DAV Public School</td>
+                            <td>CBSE</td>
+                            <td>73.4</td>
+                        </tr>
+                        <tr>
+                            <td>SSC</td>
+                            <td>2015</td>
+                            <td>BNS DAV Public School</td>
+                            <td>CBSE</td>
+                            <td>8.0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h2>Internship</h2>
+            <div class="fakeimg">
+                <p class="content"> 1. Karunadu Technologies Private Limited, Bangalore
+                    Arduino based Intelligent Building Management System using IoT implements the uses of different types of sensors for collecting the data and uploading to the cloud. To monitor the parameters such as distance, temperature, leakage of gases and alerting the system.</p>
+                    <p class="content">2. Central Institute of Mining and Fuel Research, Dhanbad
+                    Ongoing Research Project Management System is a PHP project that manage the ongoing research projects. Only admin can manage and view the resources. Languages used :
+                    PHP, MySQL.
+                </p>
+            </div>
+            
+            <h2>Projects</h2>
+            <div class="fakeimg">
+                <p class="content"> 1) Brain Tumor Detection using CNN Algorithm
+                    Tumor regions from MR image are detected using CNN Algorithm. Eight features are extracted like correlation, contrast, energy, homogeneity etc. by performing wavelet transform on the converted gray scale image. Software used : MATLAB.</p>
+                    
+                    <p class="content">2) Curfew E-Pass Management System
+                    It is an automatic system which keeps records of the passes which is issued by administrative. Admin can also update his profile, change the password, and recover the
+                    password. Languages used : HTML, CSS, SQL DB.
+                </p>
+            </div>
+        </div>
+    </div>
     <footer>
-
+        <div class="footer">
+            Contact Details : 7250809455, 9110051405
+            E-mail : manoshmukherje@gmail.com
+            LInkedin : linkedin.com/in/manosh-mukherjee
+        </div>
     </footer>
 </body>
 
